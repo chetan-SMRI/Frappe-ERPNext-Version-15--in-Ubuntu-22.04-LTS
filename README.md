@@ -177,7 +177,12 @@ Now press (Ctrl-X) to exit
     sudo -H pip3 install frappe-bench
     
     bench --version
-    
+
+### STEP 13 update git to latest version
+    sudo add-apt-repository ppa:git-core/ppa
+    sudo apt-get update
+    sudo apt-get install git
+
 ### STEP 13 initilise the frappe bench & install frappe latest version 
     bench init frappe-bench --frappe-path https://github.com/chetan-SMRI/frappe --frappe-branch version-15 --python python3.11
     DEPRECIATED : ench init frappe-bench --frappe-branch version-15 --python python3.11
