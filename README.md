@@ -218,3 +218,6 @@ Open url http://dcode.com:8000 to login
 > <a href="https://discuss.frappe.io/t/fresh-install-ends-with-error-access-denied-for-user-root-localhost/70519/3">Ref. Link</a>
 >
 > sudo mysql -uroot -pPASSWORD -Bse "GRANT ALL PRIVILEGES ON *.* TO 'root'@'localhost' IDENTIFIED BY '1234' WITH GRANT OPTION;"
+
+<b>Error 3: Fix for print designer.</b>
+> <a href="https://github.com/chetan-SMRI/Frappe-ERPNext-Installation-Guide_Basic_Commands?tab=readme-ov-file#other-marketplace-apps-used-in-project-when-project-is-already-setup-with-frappeerpnext">Check</a>
