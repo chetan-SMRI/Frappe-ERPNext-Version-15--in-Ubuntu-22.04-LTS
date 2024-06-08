@@ -208,7 +208,13 @@ Open url http://dcode.com:8000 to login
     
     bench start
     
-    
+### Common Error Resolution(while installation)
+<b>Error 1: Github was not pulling up any repository, so had to run below two commands in terminal.</b>
+>git config --global --unset http.proxy
 
+>git config --global --unset https.proxy
 
-    
+<b>Error 2: New-site creation issue(DB not accessible by root user)</b>
+> <a href="https://discuss.frappe.io/t/fresh-install-ends-with-error-access-denied-for-user-root-localhost/70519/3">Ref. Link</a>
+>
+> sudo mysql -uroot -pPASSWORD -Bse "GRANT ALL PRIVILEGES ON *.* TO 'root'@'localhost' IDENTIFIED BY '1234' WITH GRANT OPTION;"
